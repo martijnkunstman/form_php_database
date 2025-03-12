@@ -11,13 +11,13 @@
     Results van mijn form:
     <?php
     
-    //read GET parameters
+    //read POST parameters
 
     $voornaam = $_POST['voornaam'];
     $achternaam = $_POST['achternaam'];
     $email = $_POST['email'];
 
-    //print GET parameters
+    //print POST parameters
 
     echo ("<br>Voornaam: " . $voornaam);
     echo ("<br>Achternaam: " . $achternaam);
